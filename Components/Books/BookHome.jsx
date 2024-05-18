@@ -78,7 +78,7 @@ function BookHomepage() {
   return (
     <>
       <Topbar /><br/>
-      <Container  style={{ backgroundColor: 'linen', padding: '20px',borderRadius: '10px', }}>
+      <Container  style={{ padding: '20px',borderRadius: '10px', }}>
       <br/>
       <Container  >      
         <Row className='mt-3'>{renderCards()}</Row>
